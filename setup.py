@@ -11,7 +11,7 @@ setup(
     name='paramsparser',
     packages=['paramsparser'],
 
-    version='1.0.0',
+    version='1.0.1',
 
     license='MIT',
 
@@ -25,7 +25,7 @@ setup(
     description='Parse parameters written in files.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    keywords='paramsparser yaml PyYAML ConfigParser',
+    keywords='paramsparser yaml PyYAML ConfigParser json',
 
     classifiers=[
         'License :: OSI Approved :: MIT License',
