@@ -13,7 +13,6 @@ __pycache__
 .venv
 .vscode
 pip-selfcheck.json
-Pipfile*
 
 build/
 dist/
