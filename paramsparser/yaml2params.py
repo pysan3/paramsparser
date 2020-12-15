@@ -13,7 +13,7 @@ class Yaml2Params(ParamsBase):
         self._configs.filename = filename
 
     def save(self, new_filename=None, overwrite=True):
-        super().save(new_filename, yaml.dump(self), overwrite)
+        super().save(new_filename, yaml.dump(dict(self)), overwrite)
 
     add_representer = yaml.add_representer
     add_constructor = yaml.add_constructor

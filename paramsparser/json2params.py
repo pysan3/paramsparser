@@ -10,7 +10,7 @@ class Json2Params(ParamsBase):
         self._configs.filename = filename
 
     def save(self, new_filename=None, overwrite=True):
-        super().save(new_filename, json.dumps(self), overwrite)
+        super().save(new_filename, json.dumps(dict(self)), overwrite)
 
     @staticmethod
     def load_document(filename, filestream=None):
